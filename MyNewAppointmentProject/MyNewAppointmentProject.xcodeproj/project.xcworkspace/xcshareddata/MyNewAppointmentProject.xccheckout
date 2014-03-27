@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E8DC829-674B-4C62-87AF-56698EC2151C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyNewAppointmentProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>969A4584-1FAE-4918-A481-8455DB9CEA78</key>
+		<string>https://github.com/vshall20/MyNewAppointmentProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyNewAppointmentProject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>969A4584-1FAE-4918-A481-8455DB9CEA78</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vshall20/MyNewAppointmentProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>969A4584-1FAE-4918-A481-8455DB9CEA78</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>969A4584-1FAE-4918-A481-8455DB9CEA78</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyNewAppointmentProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

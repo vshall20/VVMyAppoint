@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DataEntity" representedClassName="DataEntity" syncable="YES">
+        <attribute name="appId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appointmentDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appointmentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caseId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="end" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="eventVisibility" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="holidayType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAllDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matterFromDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="matterStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matterSummary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matterToDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="recurrenceParentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recurrenceRule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LawyerEntity" representedClassName="LawyerEntity" syncable="YES">
+        <attribute name="chamberID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lawyerID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loginStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roleId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roleName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DataEntity" positionX="-4914" positionY="-975" width="128" height="403"/>
+        <element name="LawyerEntity" positionX="-4707" positionY="-873" width="128" height="165"/>
+    </elements>
+</model>

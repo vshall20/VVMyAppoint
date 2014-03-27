@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330B08A018D2E38800C40AAC /* CustomBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 330B089F18D2E38800C40AAC /* CustomBottomView.m */; };
+		330B08A218D2E3BF00C40AAC /* CustomBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330B08A118D2E3BF00C40AAC /* CustomBottomView.xib */; };
+		33A4C44518CEE4E10010FDF3 /* CustomRecurringCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A4C44418CEE4E10010FDF3 /* CustomRecurringCell.m */; };
+		33A4C44818CEE4F50010FDF3 /* CustomHolidayTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A4C44718CEE4F50010FDF3 /* CustomHolidayTypeCell.m */; };
+		33A4C44A18CEE5150010FDF3 /* CustomRecurringCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A4C44918CEE5150010FDF3 /* CustomRecurringCell.xib */; };
+		33A4C44C18CEE5280010FDF3 /* CustomHolidayTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A4C44B18CEE5280010FDF3 /* CustomHolidayTypeCell.xib */; };
+		33A8BC1C18C9A22900F4F2DE /* AppointmentTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A8BC1A18C9A22900F4F2DE /* AppointmentTypeViewController.m */; };
+		33A8BC1D18C9A22900F4F2DE /* AppointmentTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A8BC1B18C9A22900F4F2DE /* AppointmentTypeViewController.xib */; };
+		33A8BC2218C9EAE200F4F2DE /* FilterByLawyerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A8BC2018C9EAE200F4F2DE /* FilterByLawyerViewController.m */; };
+		33A8BC2318C9EAE200F4F2DE /* FilterByLawyerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A8BC2118C9EAE200F4F2DE /* FilterByLawyerViewController.xib */; };
+		33A8BC2618CA096100F4F2DE /* Processor.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A8BC2518CA096100F4F2DE /* Processor.m */; };
+		33A8BC2918CA17C700F4F2DE /* DataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A8BC2818CA17C700F4F2DE /* DataEntity.m */; };
+		33B3EF4118C73EB7006AEF58 /* NSDate+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF3318C73EB7006AEF58 /* NSDate+TKCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33B3EF4218C73EB7006AEF58 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33B3EF3418C73EB7006AEF58 /* TapkuLibrary.bundle */; };
+		33B3EF4318C73EB7006AEF58 /* TKCalendarMonthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF3618C73EB7006AEF58 /* TKCalendarMonthTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33B3EF4418C73EB7006AEF58 /* TKCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF3818C73EB7006AEF58 /* TKCalendarMonthView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33B3EF4518C73EB7006AEF58 /* TKCalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF3A18C73EB7006AEF58 /* TKCalendarMonthViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33B3EF4618C73EB7006AEF58 /* TKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF3C18C73EB7006AEF58 /* TKGlobal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33B3EF4718C73EB7006AEF58 /* UIImage+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF3E18C73EB7006AEF58 /* UIImage+TKCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33B3EF4818C73EB7006AEF58 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF4018C73EB7006AEF58 /* UIView+TKCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33B3EF4C18C74A9F006AEF58 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF4A18C74A9F006AEF58 /* LoginViewController.m */; };
+		33B3EF4D18C74A9F006AEF58 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B3EF4B18C74A9F006AEF58 /* LoginViewController.xib */; };
+		33B3EF5918C7523C006AEF58 /* NewAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF5718C7523C006AEF58 /* NewAppointmentViewController.m */; };
+		33B3EF5A18C7523C006AEF58 /* NewAppointmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B3EF5818C7523C006AEF58 /* NewAppointmentViewController.xib */; };
+		33B3EF5D18C75584006AEF58 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF5C18C75584006AEF58 /* MyTabBar.m */; };
+		33B3EF5F18C756B5006AEF58 /* MyTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B3EF5E18C756B5006AEF58 /* MyTabBar.xib */; };
+		33B3EF6218C7649B006AEF58 /* myNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B3EF6118C7649B006AEF58 /* myNavigationBar.xib */; };
+		33B3EF6518C76556006AEF58 /* MyNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3EF6418C76556006AEF58 /* MyNavigationBar.m */; };
+		33B94FE218DC51A100D79C53 /* CustomCretaeNewMatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B94FE118DC51A100D79C53 /* CustomCretaeNewMatter.m */; };
+		33B94FE418DC51B900D79C53 /* CustomCretaeNewMatter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B94FE318DC51B900D79C53 /* CustomCretaeNewMatter.xib */; };
+		33B94FE618DC60A900D79C53 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B94FE518DC60A900D79C53 /* Background.png */; };
+		33CD95F118CD9B830011EAD5 /* AddEditAppoinmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD95EF18CD9B830011EAD5 /* AddEditAppoinmentViewController.m */; };
+		33CD95F518CDA1A20011EAD5 /* MyDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CD95F418CDA1A20011EAD5 /* MyDatePicker.xib */; };
+		33CD95F918CDA2C50011EAD5 /* MyDropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD95F718CDA2C50011EAD5 /* MyDropDownViewController.m */; };
+		33CD95FA18CDA2C50011EAD5 /* MyDropDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CD95F818CDA2C50011EAD5 /* MyDropDownViewController.xib */; };
+		33CD95FC18CDA3C90011EAD5 /* MyAppoinmentSaveCancelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CD95FB18CDA3C90011EAD5 /* MyAppoinmentSaveCancelView.xib */; };
+		33CD95FF18CDA4140011EAD5 /* MyAppoinmentSaveCancelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD95FE18CDA4140011EAD5 /* MyAppoinmentSaveCancelView.m */; };
+		33CD960518CDBEA60011EAD5 /* CustomAppointmentTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD960418CDBEA60011EAD5 /* CustomAppointmentTitleCell.m */; };
+		33CD960818CDBEF80011EAD5 /* CustomAppointmentFromToCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD960718CDBEF80011EAD5 /* CustomAppointmentFromToCell.m */; };
+		33CD960B18CDBF750011EAD5 /* CustomAppoinmentDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD960A18CDBF750011EAD5 /* CustomAppoinmentDescriptionCell.m */; };
+		33CD960C18CDCB9B0011EAD5 /* AddEditAppoinmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CD95F018CD9B830011EAD5 /* AddEditAppoinmentViewController.xib */; };
+		33CD960E18CDCF470011EAD5 /* CustomAppointmentTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CD960D18CDCF470011EAD5 /* CustomAppointmentTitleCell.xib */; };
+		33CD961018CDD08A0011EAD5 /* CustomAppointmentFromToCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CD960F18CDD08A0011EAD5 /* CustomAppointmentFromToCell.xib */; };
+		33CD961218CDD2AA0011EAD5 /* CustomAppoinmentDescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CD961118CDD2AA0011EAD5 /* CustomAppoinmentDescriptionCell.xib */; };
+		33EAF8F218C61F560016C832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF8F118C61F560016C832 /* Foundation.framework */; };
+		33EAF8F418C61F560016C832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF8F318C61F560016C832 /* CoreGraphics.framework */; };
+		33EAF8F618C61F560016C832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF8F518C61F560016C832 /* UIKit.framework */; };
+		33EAF8F818C61F560016C832 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF8F718C61F560016C832 /* CoreData.framework */; };
+		33EAF8FE18C61F560016C832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33EAF8FC18C61F560016C832 /* InfoPlist.strings */; };
+		33EAF90018C61F560016C832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EAF8FF18C61F560016C832 /* main.m */; };
+		33EAF90418C61F560016C832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EAF90318C61F560016C832 /* AppDelegate.m */; };
+		33EAF90718C61F560016C832 /* MyNewAppointmentProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33EAF90518C61F560016C832 /* MyNewAppointmentProject.xcdatamodeld */; };
+		33EAF90918C61F560016C832 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EAF90818C61F560016C832 /* Images.xcassets */; };
+		33EAF91018C61F560016C832 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF90F18C61F560016C832 /* XCTest.framework */; };
+		33EAF91118C61F560016C832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF8F118C61F560016C832 /* Foundation.framework */; };
+		33EAF91218C61F560016C832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF8F518C61F560016C832 /* UIKit.framework */; };
+		33EAF91318C61F560016C832 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAF8F718C61F560016C832 /* CoreData.framework */; };
+		33EAF91B18C61F560016C832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33EAF91918C61F560016C832 /* InfoPlist.strings */; };
+		33EAF91D18C61F560016C832 /* MyNewAppointmentProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EAF91C18C61F560016C832 /* MyNewAppointmentProjectTests.m */; };
+		33EAF92E18C620160016C832 /* MyAppointmentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EAF92C18C620160016C832 /* MyAppointmentListViewController.m */; };
+		33EAF92F18C620160016C832 /* MyAppointmentListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EAF92D18C620160016C832 /* MyAppointmentListViewController.xib */; };
+		33EAF93318C6277B0016C832 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EAF93118C6277B0016C832 /* LeftViewController.m */; };
+		33EAF93418C6277B0016C832 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EAF93218C6277B0016C832 /* LeftViewController.xib */; };
+		33EAF93818C6278C0016C832 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EAF93618C6278C0016C832 /* RightViewController.m */; };
+		33EAF93918C6278C0016C832 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EAF93718C6278C0016C832 /* RightViewController.xib */; };
+		33F4A25618D9D5D1004DA5A2 /* MatterSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F4A25418D9D5D1004DA5A2 /* MatterSummaryViewController.m */; };
+		33F4A25718D9D5D1004DA5A2 /* MatterSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F4A25518D9D5D1004DA5A2 /* MatterSummaryViewController.xib */; };
+		33F655F918D1875D00B5987C /* MyDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F655F818D1875D00B5987C /* MyDatePicker.m */; };
+		33F655FD18D1C8AF00B5987C /* CustomVisibilityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F655FC18D1C8AF00B5987C /* CustomVisibilityCell.m */; };
+		33F655FF18D1C8CB00B5987C /* CustomVisibilityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F655FE18D1C8CB00B5987C /* CustomVisibilityCell.xib */; };
+		33F6560818D1D10200B5987C /* MyReminderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F6560618D1D10200B5987C /* MyReminderTableViewController.m */; };
+		33F6560918D1D10200B5987C /* MyReminderTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F6560718D1D10200B5987C /* MyReminderTableViewController.xib */; };
+		33F6560C18D1E67300B5987C /* CustomMyAppointmentListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F6560B18D1E67300B5987C /* CustomMyAppointmentListCell.m */; };
+		33F6560E18D1E68300B5987C /* CustomMyAppointmentListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F6560D18D1E68300B5987C /* CustomMyAppointmentListCell.xib */; };
+		33F6561218D1ED2900B5987C /* DetailedAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F6561018D1ED2900B5987C /* DetailedAppointmentViewController.m */; };
+		33F6561318D1ED2900B5987C /* DetailedAppointmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F6561118D1ED2900B5987C /* DetailedAppointmentViewController.xib */; };
+		33FC8ECE18CA205100D409CF /* DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FC8ECD18CA205100D409CF /* DateFormatter.m */; };
+		86667FB918DDD9E40023BDAB /* SaveAppointmentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86667FB818DDD9E40023BDAB /* SaveAppointmentRequest.m */; };
+		86667FBC18DDD9FE0023BDAB /* SaveAppointmentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86667FBB18DDD9FE0023BDAB /* SaveAppointmentResponse.m */; };
+		8680022C18E2304D0069EDC6 /* LawyerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8680022B18E2304D0069EDC6 /* LawyerEntity.m */; };
+		86E2CC5418C8FFC200E11FD4 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2CC5318C8FFC200E11FD4 /* DataManager.m */; };
+		86E2CC5A18C905A400E11FD4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2CC5918C905A400E11FD4 /* Reachability.m */; };
+		86E2CC5D18C905E700E11FD4 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2CC5C18C905E700E11FD4 /* Utility.m */; };
+		86E2CC5F18C9061900E11FD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E2CC5E18C9061900E11FD4 /* SystemConfiguration.framework */; };
+		86E2CC6618C9186A00E11FD4 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2CC6518C9186A00E11FD4 /* LoginRequest.m */; };
+		86E2CC6918C9187E00E11FD4 /* LoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2CC6818C9187E00E11FD4 /* LoginResponse.m */; };
+		86E2CC6D18C91EC000E11FD4 /* DataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2CC6C18C91EC000E11FD4 /* DataRequest.m */; };
+		86E2CC7018C91ED500E11FD4 /* DataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2CC6F18C91ED500E11FD4 /* DataResponse.m */; };
+		86E9C89318D776EC005C5523 /* DataEntityValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9C89218D776EC005C5523 /* DataEntityValidator.m */; };
+		B23F729D18E1877000104668 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F728918E1877000104668 /* AFHTTPClient.m */; };
+		B23F729E18E1877000104668 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F728B18E1877000104668 /* AFHTTPRequestOperation.m */; };
+		B23F729F18E1877000104668 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F728D18E1877000104668 /* AFImageRequestOperation.m */; };
+		B23F72A018E1877000104668 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F728F18E1877000104668 /* AFJSONRequestOperation.m */; };
+		B23F72A118E1877000104668 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F729118E1877000104668 /* AFNetworkActivityIndicatorManager.m */; };
+		B23F72A218E1877000104668 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F729418E1877000104668 /* AFPropertyListRequestOperation.m */; };
+		B23F72A318E1877000104668 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F729618E1877000104668 /* AFURLConnectionOperation.m */; };
+		B23F72A418E1877000104668 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F729818E1877000104668 /* AFXMLRequestOperation.m */; };
+		B23F72A518E1877000104668 /* MyAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F729A18E1877000104668 /* MyAPIClient.m */; };
+		B23F72A618E1877000104668 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B23F729C18E1877000104668 /* UIImageView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33EAF91418C61F560016C832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EAF8E618C61F560016C832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EAF8ED18C61F560016C832;
+			remoteInfo = MyNewAppointmentProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330B089E18D2E38800C40AAC /* CustomBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBottomView.h; sourceTree = "<group>"; };
+		330B089F18D2E38800C40AAC /* CustomBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBottomView.m; sourceTree = "<group>"; };
+		330B08A118D2E3BF00C40AAC /* CustomBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomBottomView.xib; sourceTree = "<group>"; };
+		33A4C44318CEE4E10010FDF3 /* CustomRecurringCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRecurringCell.h; sourceTree = "<group>"; };
+		33A4C44418CEE4E10010FDF3 /* CustomRecurringCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRecurringCell.m; sourceTree = "<group>"; };
+		33A4C44618CEE4F50010FDF3 /* CustomHolidayTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHolidayTypeCell.h; sourceTree = "<group>"; };
+		33A4C44718CEE4F50010FDF3 /* CustomHolidayTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHolidayTypeCell.m; sourceTree = "<group>"; };
+		33A4C44918CEE5150010FDF3 /* CustomRecurringCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomRecurringCell.xib; sourceTree = "<group>"; };
+		33A4C44B18CEE5280010FDF3 /* CustomHolidayTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHolidayTypeCell.xib; sourceTree = "<group>"; };
+		33A8BC1918C9A22900F4F2DE /* AppointmentTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentTypeViewController.h; sourceTree = "<group>"; };
+		33A8BC1A18C9A22900F4F2DE /* AppointmentTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentTypeViewController.m; sourceTree = "<group>"; };
+		33A8BC1B18C9A22900F4F2DE /* AppointmentTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentTypeViewController.xib; sourceTree = "<group>"; };
+		33A8BC1F18C9EAE200F4F2DE /* FilterByLawyerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterByLawyerViewController.h; sourceTree = "<group>"; };
+		33A8BC2018C9EAE200F4F2DE /* FilterByLawyerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterByLawyerViewController.m; sourceTree = "<group>"; };
+		33A8BC2118C9EAE200F4F2DE /* FilterByLawyerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterByLawyerViewController.xib; sourceTree = "<group>"; };
+		33A8BC2418CA096100F4F2DE /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		33A8BC2518CA096100F4F2DE /* Processor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Processor.m; sourceTree = "<group>"; };
+		33A8BC2718CA17C700F4F2DE /* DataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataEntity.h; sourceTree = "<group>"; };
+		33A8BC2818CA17C700F4F2DE /* DataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataEntity.m; sourceTree = "<group>"; };
+		33B3EF3218C73EB7006AEF58 /* NSDate+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKCategory.h"; sourceTree = "<group>"; };
+		33B3EF3318C73EB7006AEF58 /* NSDate+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKCategory.m"; sourceTree = "<group>"; };
+		33B3EF3418C73EB7006AEF58 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapkuLibrary.bundle; sourceTree = "<group>"; };
+		33B3EF3518C73EB7006AEF58 /* TKCalendarMonthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthTableViewController.h; sourceTree = "<group>"; };
+		33B3EF3618C73EB7006AEF58 /* TKCalendarMonthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthTableViewController.m; sourceTree = "<group>"; };
+		33B3EF3718C73EB7006AEF58 /* TKCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthView.h; sourceTree = "<group>"; };
+		33B3EF3818C73EB7006AEF58 /* TKCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthView.m; sourceTree = "<group>"; };
+		33B3EF3918C73EB7006AEF58 /* TKCalendarMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthViewController.h; sourceTree = "<group>"; };
+		33B3EF3A18C73EB7006AEF58 /* TKCalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthViewController.m; sourceTree = "<group>"; };
+		33B3EF3B18C73EB7006AEF58 /* TKGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGlobal.h; sourceTree = "<group>"; };
+		33B3EF3C18C73EB7006AEF58 /* TKGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGlobal.m; sourceTree = "<group>"; };
+		33B3EF3D18C73EB7006AEF58 /* UIImage+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TKCategory.h"; sourceTree = "<group>"; };
+		33B3EF3E18C73EB7006AEF58 /* UIImage+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TKCategory.m"; sourceTree = "<group>"; };
+		33B3EF3F18C73EB7006AEF58 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		33B3EF4018C73EB7006AEF58 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+		33B3EF4918C74A9F006AEF58 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		33B3EF4A18C74A9F006AEF58 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		33B3EF4B18C74A9F006AEF58 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		33B3EF5618C7523C006AEF58 /* NewAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAppointmentViewController.h; sourceTree = "<group>"; };
+		33B3EF5718C7523C006AEF58 /* NewAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAppointmentViewController.m; sourceTree = "<group>"; };
+		33B3EF5818C7523C006AEF58 /* NewAppointmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewAppointmentViewController.xib; sourceTree = "<group>"; };
+		33B3EF5B18C75584006AEF58 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		33B3EF5C18C75584006AEF58 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		33B3EF5E18C756B5006AEF58 /* MyTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTabBar.xib; sourceTree = "<group>"; };
+		33B3EF6118C7649B006AEF58 /* myNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myNavigationBar.xib; sourceTree = "<group>"; };
+		33B3EF6318C76556006AEF58 /* MyNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationBar.h; sourceTree = "<group>"; };
+		33B3EF6418C76556006AEF58 /* MyNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationBar.m; sourceTree = "<group>"; };
+		33B94FE018DC51A100D79C53 /* CustomCretaeNewMatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCretaeNewMatter.h; sourceTree = "<group>"; };
+		33B94FE118DC51A100D79C53 /* CustomCretaeNewMatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCretaeNewMatter.m; sourceTree = "<group>"; };
+		33B94FE318DC51B900D79C53 /* CustomCretaeNewMatter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCretaeNewMatter.xib; sourceTree = "<group>"; };
+		33B94FE518DC60A900D79C53 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		33CD95EE18CD9B830011EAD5 /* AddEditAppoinmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditAppoinmentViewController.h; sourceTree = "<group>"; };
+		33CD95EF18CD9B830011EAD5 /* AddEditAppoinmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditAppoinmentViewController.m; sourceTree = "<group>"; };
+		33CD95F018CD9B830011EAD5 /* AddEditAppoinmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEditAppoinmentViewController.xib; sourceTree = "<group>"; };
+		33CD95F418CDA1A20011EAD5 /* MyDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDatePicker.xib; sourceTree = "<group>"; };
+		33CD95F618CDA2C50011EAD5 /* MyDropDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDropDownViewController.h; sourceTree = "<group>"; };
+		33CD95F718CDA2C50011EAD5 /* MyDropDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDropDownViewController.m; sourceTree = "<group>"; };
+		33CD95F818CDA2C50011EAD5 /* MyDropDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDropDownViewController.xib; sourceTree = "<group>"; };
+		33CD95FB18CDA3C90011EAD5 /* MyAppoinmentSaveCancelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAppoinmentSaveCancelView.xib; sourceTree = "<group>"; };
+		33CD95FD18CDA4140011EAD5 /* MyAppoinmentSaveCancelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppoinmentSaveCancelView.h; sourceTree = "<group>"; };
+		33CD95FE18CDA4140011EAD5 /* MyAppoinmentSaveCancelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppoinmentSaveCancelView.m; sourceTree = "<group>"; };
+		33CD960318CDBEA60011EAD5 /* CustomAppointmentTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAppointmentTitleCell.h; sourceTree = "<group>"; };
+		33CD960418CDBEA60011EAD5 /* CustomAppointmentTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAppointmentTitleCell.m; sourceTree = "<group>"; };
+		33CD960618CDBEF80011EAD5 /* CustomAppointmentFromToCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAppointmentFromToCell.h; sourceTree = "<group>"; };
+		33CD960718CDBEF80011EAD5 /* CustomAppointmentFromToCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAppointmentFromToCell.m; sourceTree = "<group>"; };
+		33CD960918CDBF750011EAD5 /* CustomAppoinmentDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAppoinmentDescriptionCell.h; sourceTree = "<group>"; };
+		33CD960A18CDBF750011EAD5 /* CustomAppoinmentDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAppoinmentDescriptionCell.m; sourceTree = "<group>"; };
+		33CD960D18CDCF470011EAD5 /* CustomAppointmentTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAppointmentTitleCell.xib; sourceTree = "<group>"; };
+		33CD960F18CDD08A0011EAD5 /* CustomAppointmentFromToCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAppointmentFromToCell.xib; sourceTree = "<group>"; };
+		33CD961118CDD2AA0011EAD5 /* CustomAppoinmentDescriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAppoinmentDescriptionCell.xib; sourceTree = "<group>"; };
+		33EAF8EE18C61F560016C832 /* MyNewAppointmentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNewAppointmentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EAF8F118C61F560016C832 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33EAF8F318C61F560016C832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33EAF8F518C61F560016C832 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33EAF8F718C61F560016C832 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		33EAF8FB18C61F560016C832 /* MyNewAppointmentProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyNewAppointmentProject-Info.plist"; sourceTree = "<group>"; };
+		33EAF8FD18C61F560016C832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33EAF8FF18C61F560016C832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33EAF90118C61F560016C832 /* MyNewAppointmentProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNewAppointmentProject-Prefix.pch"; sourceTree = "<group>"; };
+		33EAF90218C61F560016C832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33EAF90318C61F560016C832 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33EAF90618C61F560016C832 /* MyNewAppointmentProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNewAppointmentProject.xcdatamodel; sourceTree = "<group>"; };
+		33EAF90818C61F560016C832 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33EAF90E18C61F560016C832 /* MyNewAppointmentProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNewAppointmentProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EAF90F18C61F560016C832 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33EAF91818C61F560016C832 /* MyNewAppointmentProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyNewAppointmentProjectTests-Info.plist"; sourceTree = "<group>"; };
+		33EAF91A18C61F560016C832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33EAF91C18C61F560016C832 /* MyNewAppointmentProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNewAppointmentProjectTests.m; sourceTree = "<group>"; };
+		33EAF92B18C620160016C832 /* MyAppointmentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppointmentListViewController.h; sourceTree = "<group>"; };
+		33EAF92C18C620160016C832 /* MyAppointmentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppointmentListViewController.m; sourceTree = "<group>"; };
+		33EAF92D18C620160016C832 /* MyAppointmentListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAppointmentListViewController.xib; sourceTree = "<group>"; };
+		33EAF93018C6277B0016C832 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		33EAF93118C6277B0016C832 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		33EAF93218C6277B0016C832 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		33EAF93518C6278C0016C832 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		33EAF93618C6278C0016C832 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		33EAF93718C6278C0016C832 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		33EAF93A18C62D240016C832 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		33F4A25318D9D5D1004DA5A2 /* MatterSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatterSummaryViewController.h; sourceTree = "<group>"; };
+		33F4A25418D9D5D1004DA5A2 /* MatterSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatterSummaryViewController.m; sourceTree = "<group>"; };
+		33F4A25518D9D5D1004DA5A2 /* MatterSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatterSummaryViewController.xib; sourceTree = "<group>"; };
+		33F655F718D1875D00B5987C /* MyDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDatePicker.h; sourceTree = "<group>"; };
+		33F655F818D1875D00B5987C /* MyDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDatePicker.m; sourceTree = "<group>"; };
+		33F655FB18D1C8AF00B5987C /* CustomVisibilityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVisibilityCell.h; sourceTree = "<group>"; };
+		33F655FC18D1C8AF00B5987C /* CustomVisibilityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVisibilityCell.m; sourceTree = "<group>"; };
+		33F655FE18D1C8CB00B5987C /* CustomVisibilityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomVisibilityCell.xib; sourceTree = "<group>"; };
+		33F6560518D1D10200B5987C /* MyReminderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReminderTableViewController.h; sourceTree = "<group>"; };
+		33F6560618D1D10200B5987C /* MyReminderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReminderTableViewController.m; sourceTree = "<group>"; };
+		33F6560718D1D10200B5987C /* MyReminderTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyReminderTableViewController.xib; sourceTree = "<group>"; };
+		33F6560A18D1E67300B5987C /* CustomMyAppointmentListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMyAppointmentListCell.h; sourceTree = "<group>"; };
+		33F6560B18D1E67300B5987C /* CustomMyAppointmentListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMyAppointmentListCell.m; sourceTree = "<group>"; };
+		33F6560D18D1E68300B5987C /* CustomMyAppointmentListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMyAppointmentListCell.xib; sourceTree = "<group>"; };
+		33F6560F18D1ED2900B5987C /* DetailedAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedAppointmentViewController.h; sourceTree = "<group>"; };
+		33F6561018D1ED2900B5987C /* DetailedAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedAppointmentViewController.m; sourceTree = "<group>"; };
+		33F6561118D1ED2900B5987C /* DetailedAppointmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedAppointmentViewController.xib; sourceTree = "<group>"; };
+		33FC8ECC18CA205100D409CF /* DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateFormatter.h; sourceTree = "<group>"; };
+		33FC8ECD18CA205100D409CF /* DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateFormatter.m; sourceTree = "<group>"; };
+		86667FB718DDD9E40023BDAB /* SaveAppointmentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveAppointmentRequest.h; sourceTree = "<group>"; };
+		86667FB818DDD9E40023BDAB /* SaveAppointmentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveAppointmentRequest.m; sourceTree = "<group>"; };
+		86667FBA18DDD9FE0023BDAB /* SaveAppointmentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveAppointmentResponse.h; sourceTree = "<group>"; };
+		86667FBB18DDD9FE0023BDAB /* SaveAppointmentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveAppointmentResponse.m; sourceTree = "<group>"; };
+		8680022A18E2304D0069EDC6 /* LawyerEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LawyerEntity.h; sourceTree = "<group>"; };
+		8680022B18E2304D0069EDC6 /* LawyerEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LawyerEntity.m; sourceTree = "<group>"; };
+		86E2CC5218C8FFC200E11FD4 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		86E2CC5318C8FFC200E11FD4 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		86E2CC5818C905A400E11FD4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		86E2CC5918C905A400E11FD4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		86E2CC5B18C905E700E11FD4 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		86E2CC5C18C905E700E11FD4 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		86E2CC5E18C9061900E11FD4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		86E2CC6418C9186A00E11FD4 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		86E2CC6518C9186A00E11FD4 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		86E2CC6718C9187E00E11FD4 /* LoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResponse.h; sourceTree = "<group>"; };
+		86E2CC6818C9187E00E11FD4 /* LoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResponse.m; sourceTree = "<group>"; };
+		86E2CC6B18C91EC000E11FD4 /* DataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRequest.h; sourceTree = "<group>"; };
+		86E2CC6C18C91EC000E11FD4 /* DataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequest.m; sourceTree = "<group>"; };
+		86E2CC6E18C91ED500E11FD4 /* DataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataResponse.h; sourceTree = "<group>"; };
+		86E2CC6F18C91ED500E11FD4 /* DataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataResponse.m; sourceTree = "<group>"; };
+		86E9C89118D776EC005C5523 /* DataEntityValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataEntityValidator.h; sourceTree = "<group>"; };
+		86E9C89218D776EC005C5523 /* DataEntityValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataEntityValidator.m; sourceTree = "<group>"; };
+		B23F728818E1877000104668 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		B23F728918E1877000104668 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		B23F728A18E1877000104668 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		B23F728B18E1877000104668 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		B23F728C18E1877000104668 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		B23F728D18E1877000104668 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		B23F728E18E1877000104668 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		B23F728F18E1877000104668 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		B23F729018E1877000104668 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		B23F729118E1877000104668 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		B23F729218E1877000104668 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B23F729318E1877000104668 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		B23F729418E1877000104668 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		B23F729518E1877000104668 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		B23F729618E1877000104668 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		B23F729718E1877000104668 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		B23F729818E1877000104668 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		B23F729918E1877000104668 /* MyAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAPIClient.h; sourceTree = "<group>"; };
+		B23F729A18E1877000104668 /* MyAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAPIClient.m; sourceTree = "<group>"; };
+		B23F729B18E1877000104668 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		B23F729C18E1877000104668 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33EAF8EB18C61F560016C832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E2CC5F18C9061900E11FD4 /* SystemConfiguration.framework in Frameworks */,
+				33EAF8F418C61F560016C832 /* CoreGraphics.framework in Frameworks */,
+				33EAF8F818C61F560016C832 /* CoreData.framework in Frameworks */,
+				33EAF8F618C61F560016C832 /* UIKit.framework in Frameworks */,
+				33EAF8F218C61F560016C832 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EAF90B18C61F560016C832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EAF91018C61F560016C832 /* XCTest.framework in Frameworks */,
+				33EAF91318C61F560016C832 /* CoreData.framework in Frameworks */,
+				33EAF91218C61F560016C832 /* UIKit.framework in Frameworks */,
+				33EAF91118C61F560016C832 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B3EF3118C73EB7006AEF58 /* TapkuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				33B3EF3218C73EB7006AEF58 /* NSDate+TKCategory.h */,
+				33B3EF3318C73EB7006AEF58 /* NSDate+TKCategory.m */,
+				33B3EF3418C73EB7006AEF58 /* TapkuLibrary.bundle */,
+				33B3EF3518C73EB7006AEF58 /* TKCalendarMonthTableViewController.h */,
+				33B3EF3618C73EB7006AEF58 /* TKCalendarMonthTableViewController.m */,
+				33B3EF3718C73EB7006AEF58 /* TKCalendarMonthView.h */,
+				33B3EF3818C73EB7006AEF58 /* TKCalendarMonthView.m */,
+				33B3EF3918C73EB7006AEF58 /* TKCalendarMonthViewController.h */,
+				33B3EF3A18C73EB7006AEF58 /* TKCalendarMonthViewController.m */,
+				33B3EF3B18C73EB7006AEF58 /* TKGlobal.h */,
+				33B3EF3C18C73EB7006AEF58 /* TKGlobal.m */,
+				33B3EF3D18C73EB7006AEF58 /* UIImage+TKCategory.h */,
+				33B3EF3E18C73EB7006AEF58 /* UIImage+TKCategory.m */,
+				33B3EF3F18C73EB7006AEF58 /* UIView+TKCategory.h */,
+				33B3EF4018C73EB7006AEF58 /* UIView+TKCategory.m */,
+			);
+			path = TapkuLibrary;
+			sourceTree = "<group>";
+		};
+		33EAF8E518C61F560016C832 = {
+			isa = PBXGroup;
+			children = (
+				33EAF92618C61FD30016C832 /* MyResources */,
+				33EAF8F918C61F560016C832 /* MyNewAppointmentProject */,
+				33EAF91618C61F560016C832 /* MyNewAppointmentProjectTests */,
+				33EAF8F018C61F560016C832 /* Frameworks */,
+				33EAF8EF18C61F560016C832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33EAF8EF18C61F560016C832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33EAF8EE18C61F560016C832 /* MyNewAppointmentProject.app */,
+				33EAF90E18C61F560016C832 /* MyNewAppointmentProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33EAF8F018C61F560016C832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86E2CC5E18C9061900E11FD4 /* SystemConfiguration.framework */,
+				33EAF8F118C61F560016C832 /* Foundation.framework */,
+				33EAF8F318C61F560016C832 /* CoreGraphics.framework */,
+				33EAF8F518C61F560016C832 /* UIKit.framework */,
+				33EAF8F718C61F560016C832 /* CoreData.framework */,
+				33EAF90F18C61F560016C832 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33EAF8F918C61F560016C832 /* MyNewAppointmentProject */ = {
+			isa = PBXGroup;
+			children = (
+				33EAF90218C61F560016C832 /* AppDelegate.h */,
+				33EAF90318C61F560016C832 /* AppDelegate.m */,
+				33EAF90818C61F560016C832 /* Images.xcassets */,
+				33EAF90518C61F560016C832 /* MyNewAppointmentProject.xcdatamodeld */,
+				8680022A18E2304D0069EDC6 /* LawyerEntity.h */,
+				8680022B18E2304D0069EDC6 /* LawyerEntity.m */,
+				33A8BC2718CA17C700F4F2DE /* DataEntity.h */,
+				33A8BC2818CA17C700F4F2DE /* DataEntity.m */,
+				33EAF8FA18C61F560016C832 /* Supporting Files */,
+				86E9C89118D776EC005C5523 /* DataEntityValidator.h */,
+				86E9C89218D776EC005C5523 /* DataEntityValidator.m */,
+			);
+			path = MyNewAppointmentProject;
+			sourceTree = "<group>";
+		};
+		33EAF8FA18C61F560016C832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33EAF8FB18C61F560016C832 /* MyNewAppointmentProject-Info.plist */,
+				33EAF8FC18C61F560016C832 /* InfoPlist.strings */,
+				33EAF8FF18C61F560016C832 /* main.m */,
+				33EAF90118C61F560016C832 /* MyNewAppointmentProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33EAF91618C61F560016C832 /* MyNewAppointmentProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				33EAF91C18C61F560016C832 /* MyNewAppointmentProjectTests.m */,
+				33EAF91718C61F560016C832 /* Supporting Files */,
+			);
+			path = MyNewAppointmentProjectTests;
+			sourceTree = "<group>";
+		};
+		33EAF91718C61F560016C832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33EAF91818C61F560016C832 /* MyNewAppointmentProjectTests-Info.plist */,
+				33EAF91918C61F560016C832 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33EAF92618C61FD30016C832 /* MyResources */ = {
+			isa = PBXGroup;
+			children = (
+				33EAF92718C61FD30016C832 /* CommonClass */,
+				33EAF92818C61FD30016C832 /* Model */,
+				33EAF92918C61FD30016C832 /* ThirdPartyAPI */,
+				33EAF92A18C61FD30016C832 /* UIViewController */,
+			);
+			path = MyResources;
+			sourceTree = "<group>";
+		};
+		33EAF92718C61FD30016C832 /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				33B94FE518DC60A900D79C53 /* Background.png */,
+				33EAF93A18C62D240016C832 /* Constant.h */,
+				33B3EF5B18C75584006AEF58 /* MyTabBar.h */,
+				33B3EF5C18C75584006AEF58 /* MyTabBar.m */,
+				33B3EF5E18C756B5006AEF58 /* MyTabBar.xib */,
+				33B3EF6318C76556006AEF58 /* MyNavigationBar.h */,
+				33B3EF6418C76556006AEF58 /* MyNavigationBar.m */,
+				33B3EF6118C7649B006AEF58 /* myNavigationBar.xib */,
+				33FC8ECC18CA205100D409CF /* DateFormatter.h */,
+				33FC8ECD18CA205100D409CF /* DateFormatter.m */,
+				33CD95F418CDA1A20011EAD5 /* MyDatePicker.xib */,
+				33CD95F618CDA2C50011EAD5 /* MyDropDownViewController.h */,
+				33CD95F718CDA2C50011EAD5 /* MyDropDownViewController.m */,
+				33CD95F818CDA2C50011EAD5 /* MyDropDownViewController.xib */,
+				33CD95FD18CDA4140011EAD5 /* MyAppoinmentSaveCancelView.h */,
+				33CD95FE18CDA4140011EAD5 /* MyAppoinmentSaveCancelView.m */,
+				33CD95FB18CDA3C90011EAD5 /* MyAppoinmentSaveCancelView.xib */,
+				33CD960318CDBEA60011EAD5 /* CustomAppointmentTitleCell.h */,
+				33CD960418CDBEA60011EAD5 /* CustomAppointmentTitleCell.m */,
+				33CD960D18CDCF470011EAD5 /* CustomAppointmentTitleCell.xib */,
+				33CD960618CDBEF80011EAD5 /* CustomAppointmentFromToCell.h */,
+				33CD960718CDBEF80011EAD5 /* CustomAppointmentFromToCell.m */,
+				33CD960F18CDD08A0011EAD5 /* CustomAppointmentFromToCell.xib */,
+				33CD960918CDBF750011EAD5 /* CustomAppoinmentDescriptionCell.h */,
+				33CD960A18CDBF750011EAD5 /* CustomAppoinmentDescriptionCell.m */,
+				33CD961118CDD2AA0011EAD5 /* CustomAppoinmentDescriptionCell.xib */,
+				33A4C44318CEE4E10010FDF3 /* CustomRecurringCell.h */,
+				33A4C44418CEE4E10010FDF3 /* CustomRecurringCell.m */,
+				33A4C44918CEE5150010FDF3 /* CustomRecurringCell.xib */,
+				33A4C44618CEE4F50010FDF3 /* CustomHolidayTypeCell.h */,
+				33A4C44718CEE4F50010FDF3 /* CustomHolidayTypeCell.m */,
+				33A4C44B18CEE5280010FDF3 /* CustomHolidayTypeCell.xib */,
+				33F655F718D1875D00B5987C /* MyDatePicker.h */,
+				33F655F818D1875D00B5987C /* MyDatePicker.m */,
+				33F655FB18D1C8AF00B5987C /* CustomVisibilityCell.h */,
+				33F655FC18D1C8AF00B5987C /* CustomVisibilityCell.m */,
+				33F655FE18D1C8CB00B5987C /* CustomVisibilityCell.xib */,
+				33F6560518D1D10200B5987C /* MyReminderTableViewController.h */,
+				33F6560618D1D10200B5987C /* MyReminderTableViewController.m */,
+				33F6560718D1D10200B5987C /* MyReminderTableViewController.xib */,
+				33F6560A18D1E67300B5987C /* CustomMyAppointmentListCell.h */,
+				33F6560B18D1E67300B5987C /* CustomMyAppointmentListCell.m */,
+				33F6560D18D1E68300B5987C /* CustomMyAppointmentListCell.xib */,
+				330B089E18D2E38800C40AAC /* CustomBottomView.h */,
+				330B089F18D2E38800C40AAC /* CustomBottomView.m */,
+				330B08A118D2E3BF00C40AAC /* CustomBottomView.xib */,
+				33B94FE018DC51A100D79C53 /* CustomCretaeNewMatter.h */,
+				33B94FE118DC51A100D79C53 /* CustomCretaeNewMatter.m */,
+				33B94FE318DC51B900D79C53 /* CustomCretaeNewMatter.xib */,
+			);
+			path = CommonClass;
+			sourceTree = "<group>";
+		};
+		33EAF92818C61FD30016C832 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86E2CC6A18C91E8800E11FD4 /* Data Request and Response */,
+				86E2CC6318C9181D00E11FD4 /* Login Request and Response */,
+				86E2CC5218C8FFC200E11FD4 /* DataManager.h */,
+				86E2CC5318C8FFC200E11FD4 /* DataManager.m */,
+				86E2CC5B18C905E700E11FD4 /* Utility.h */,
+				86E2CC5C18C905E700E11FD4 /* Utility.m */,
+				33A8BC2418CA096100F4F2DE /* Processor.h */,
+				33A8BC2518CA096100F4F2DE /* Processor.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33EAF92918C61FD30016C832 /* ThirdPartyAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B23F728718E1877000104668 /* AFNetworking */,
+				86E2CC5818C905A400E11FD4 /* Reachability.h */,
+				86E2CC5918C905A400E11FD4 /* Reachability.m */,
+				33B3EF3118C73EB7006AEF58 /* TapkuLibrary */,
+			);
+			path = ThirdPartyAPI;
+			sourceTree = "<group>";
+		};
+		33EAF92A18C61FD30016C832 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				33EAF92B18C620160016C832 /* MyAppointmentListViewController.h */,
+				33EAF92C18C620160016C832 /* MyAppointmentListViewController.m */,
+				33EAF92D18C620160016C832 /* MyAppointmentListViewController.xib */,
+				33EAF93018C6277B0016C832 /* LeftViewController.h */,
+				33EAF93118C6277B0016C832 /* LeftViewController.m */,
+				33EAF93218C6277B0016C832 /* LeftViewController.xib */,
+				33EAF93518C6278C0016C832 /* RightViewController.h */,
+				33EAF93618C6278C0016C832 /* RightViewController.m */,
+				33EAF93718C6278C0016C832 /* RightViewController.xib */,
+				33B3EF4918C74A9F006AEF58 /* LoginViewController.h */,
+				33B3EF4A18C74A9F006AEF58 /* LoginViewController.m */,
+				33B3EF4B18C74A9F006AEF58 /* LoginViewController.xib */,
+				33B3EF5618C7523C006AEF58 /* NewAppointmentViewController.h */,
+				33B3EF5718C7523C006AEF58 /* NewAppointmentViewController.m */,
+				33B3EF5818C7523C006AEF58 /* NewAppointmentViewController.xib */,
+				33A8BC1918C9A22900F4F2DE /* AppointmentTypeViewController.h */,
+				33A8BC1A18C9A22900F4F2DE /* AppointmentTypeViewController.m */,
+				33A8BC1B18C9A22900F4F2DE /* AppointmentTypeViewController.xib */,
+				33A8BC1F18C9EAE200F4F2DE /* FilterByLawyerViewController.h */,
+				33A8BC2018C9EAE200F4F2DE /* FilterByLawyerViewController.m */,
+				33A8BC2118C9EAE200F4F2DE /* FilterByLawyerViewController.xib */,
+				33CD95EE18CD9B830011EAD5 /* AddEditAppoinmentViewController.h */,
+				33CD95EF18CD9B830011EAD5 /* AddEditAppoinmentViewController.m */,
+				33CD95F018CD9B830011EAD5 /* AddEditAppoinmentViewController.xib */,
+				33F6560F18D1ED2900B5987C /* DetailedAppointmentViewController.h */,
+				33F6561018D1ED2900B5987C /* DetailedAppointmentViewController.m */,
+				33F6561118D1ED2900B5987C /* DetailedAppointmentViewController.xib */,
+				33F4A25318D9D5D1004DA5A2 /* MatterSummaryViewController.h */,
+				33F4A25418D9D5D1004DA5A2 /* MatterSummaryViewController.m */,
+				33F4A25518D9D5D1004DA5A2 /* MatterSummaryViewController.xib */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		86E2CC6318C9181D00E11FD4 /* Login Request and Response */ = {
+			isa = PBXGroup;
+			children = (
+				86E2CC6418C9186A00E11FD4 /* LoginRequest.h */,
+				86E2CC6518C9186A00E11FD4 /* LoginRequest.m */,
+				86E2CC6718C9187E00E11FD4 /* LoginResponse.h */,
+				86E2CC6818C9187E00E11FD4 /* LoginResponse.m */,
+			);
+			name = "Login Request and Response";
+			sourceTree = "<group>";
+		};
+		86E2CC6A18C91E8800E11FD4 /* Data Request and Response */ = {
+			isa = PBXGroup;
+			children = (
+				86E2CC6B18C91EC000E11FD4 /* DataRequest.h */,
+				86E2CC6C18C91EC000E11FD4 /* DataRequest.m */,
+				86E2CC6E18C91ED500E11FD4 /* DataResponse.h */,
+				86E2CC6F18C91ED500E11FD4 /* DataResponse.m */,
+				86667FB718DDD9E40023BDAB /* SaveAppointmentRequest.h */,
+				86667FB818DDD9E40023BDAB /* SaveAppointmentRequest.m */,
+				86667FBA18DDD9FE0023BDAB /* SaveAppointmentResponse.h */,
+				86667FBB18DDD9FE0023BDAB /* SaveAppointmentResponse.m */,
+			);
+			name = "Data Request and Response";
+			sourceTree = "<group>";
+		};
+		B23F728718E1877000104668 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B23F728818E1877000104668 /* AFHTTPClient.h */,
+				B23F728918E1877000104668 /* AFHTTPClient.m */,
+				B23F728A18E1877000104668 /* AFHTTPRequestOperation.h */,
+				B23F728B18E1877000104668 /* AFHTTPRequestOperation.m */,
+				B23F728C18E1877000104668 /* AFImageRequestOperation.h */,
+				B23F728D18E1877000104668 /* AFImageRequestOperation.m */,
+				B23F728E18E1877000104668 /* AFJSONRequestOperation.h */,
+				B23F728F18E1877000104668 /* AFJSONRequestOperation.m */,
+				B23F729018E1877000104668 /* AFNetworkActivityIndicatorManager.h */,
+				B23F729118E1877000104668 /* AFNetworkActivityIndicatorManager.m */,
+				B23F729218E1877000104668 /* AFNetworking.h */,
+				B23F729318E1877000104668 /* AFPropertyListRequestOperation.h */,
+				B23F729418E1877000104668 /* AFPropertyListRequestOperation.m */,
+				B23F729518E1877000104668 /* AFURLConnectionOperation.h */,
+				B23F729618E1877000104668 /* AFURLConnectionOperation.m */,
+				B23F729718E1877000104668 /* AFXMLRequestOperation.h */,
+				B23F729818E1877000104668 /* AFXMLRequestOperation.m */,
+				B23F729918E1877000104668 /* MyAPIClient.h */,
+				B23F729A18E1877000104668 /* MyAPIClient.m */,
+				B23F729B18E1877000104668 /* UIImageView+AFNetworking.h */,
+				B23F729C18E1877000104668 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33EAF8ED18C61F560016C832 /* MyNewAppointmentProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EAF92018C61F560016C832 /* Build configuration list for PBXNativeTarget "MyNewAppointmentProject" */;
+			buildPhases = (
+				33EAF8EA18C61F560016C832 /* Sources */,
+				33EAF8EB18C61F560016C832 /* Frameworks */,
+				33EAF8EC18C61F560016C832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNewAppointmentProject;
+			productName = MyNewAppointmentProject;
+			productReference = 33EAF8EE18C61F560016C832 /* MyNewAppointmentProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33EAF90D18C61F560016C832 /* MyNewAppointmentProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EAF92318C61F560016C832 /* Build configuration list for PBXNativeTarget "MyNewAppointmentProjectTests" */;
+			buildPhases = (
+				33EAF90A18C61F560016C832 /* Sources */,
+				33EAF90B18C61F560016C832 /* Frameworks */,
+				33EAF90C18C61F560016C832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EAF91518C61F560016C832 /* PBXTargetDependency */,
+			);
+			name = MyNewAppointmentProjectTests;
+			productName = MyNewAppointmentProjectTests;
+			productReference = 33EAF90E18C61F560016C832 /* MyNewAppointmentProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33EAF8E618C61F560016C832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vishnu Gupta";
+				TargetAttributes = {
+					33EAF8ED18C61F560016C832 = {
+						DevelopmentTeam = 5R8RGDXM32;
+					};
+					33EAF90D18C61F560016C832 = {
+						TestTargetID = 33EAF8ED18C61F560016C832;
+					};
+				};
+			};
+			buildConfigurationList = 33EAF8E918C61F560016C832 /* Build configuration list for PBXProject "MyNewAppointmentProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33EAF8E518C61F560016C832;
+			productRefGroup = 33EAF8EF18C61F560016C832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33EAF8ED18C61F560016C832 /* MyNewAppointmentProject */,
+				33EAF90D18C61F560016C832 /* MyNewAppointmentProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33EAF8EC18C61F560016C832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CD95FC18CDA3C90011EAD5 /* MyAppoinmentSaveCancelView.xib in Resources */,
+				33EAF92F18C620160016C832 /* MyAppointmentListViewController.xib in Resources */,
+				33B3EF6218C7649B006AEF58 /* myNavigationBar.xib in Resources */,
+				33A8BC2318C9EAE200F4F2DE /* FilterByLawyerViewController.xib in Resources */,
+				33F655FF18D1C8CB00B5987C /* CustomVisibilityCell.xib in Resources */,
+				33EAF93918C6278C0016C832 /* RightViewController.xib in Resources */,
+				33B94FE618DC60A900D79C53 /* Background.png in Resources */,
+				330B08A218D2E3BF00C40AAC /* CustomBottomView.xib in Resources */,
+				33CD960C18CDCB9B0011EAD5 /* AddEditAppoinmentViewController.xib in Resources */,
+				33A8BC1D18C9A22900F4F2DE /* AppointmentTypeViewController.xib in Resources */,
+				33A4C44C18CEE5280010FDF3 /* CustomHolidayTypeCell.xib in Resources */,
+				33CD95F518CDA1A20011EAD5 /* MyDatePicker.xib in Resources */,
+				33F6561318D1ED2900B5987C /* DetailedAppointmentViewController.xib in Resources */,
+				33EAF93418C6277B0016C832 /* LeftViewController.xib in Resources */,
+				33CD961018CDD08A0011EAD5 /* CustomAppointmentFromToCell.xib in Resources */,
+				33B3EF5A18C7523C006AEF58 /* NewAppointmentViewController.xib in Resources */,
+				33CD95FA18CDA2C50011EAD5 /* MyDropDownViewController.xib in Resources */,
+				33F6560918D1D10200B5987C /* MyReminderTableViewController.xib in Resources */,
+				33A4C44A18CEE5150010FDF3 /* CustomRecurringCell.xib in Resources */,
+				33B3EF4218C73EB7006AEF58 /* TapkuLibrary.bundle in Resources */,
+				33CD961218CDD2AA0011EAD5 /* CustomAppoinmentDescriptionCell.xib in Resources */,
+				33CD960E18CDCF470011EAD5 /* CustomAppointmentTitleCell.xib in Resources */,
+				33EAF8FE18C61F560016C832 /* InfoPlist.strings in Resources */,
+				33F6560E18D1E68300B5987C /* CustomMyAppointmentListCell.xib in Resources */,
+				33B3EF5F18C756B5006AEF58 /* MyTabBar.xib in Resources */,
+				33B94FE418DC51B900D79C53 /* CustomCretaeNewMatter.xib in Resources */,
+				33F4A25718D9D5D1004DA5A2 /* MatterSummaryViewController.xib in Resources */,
+				33B3EF4D18C74A9F006AEF58 /* LoginViewController.xib in Resources */,
+				33EAF90918C61F560016C832 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EAF90C18C61F560016C832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EAF91B18C61F560016C832 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33EAF8EA18C61F560016C832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F72A318E1877000104668 /* AFURLConnectionOperation.m in Sources */,
+				330B08A018D2E38800C40AAC /* CustomBottomView.m in Sources */,
+				33EAF92E18C620160016C832 /* MyAppointmentListViewController.m in Sources */,
+				33F4A25618D9D5D1004DA5A2 /* MatterSummaryViewController.m in Sources */,
+				33B3EF6518C76556006AEF58 /* MyNavigationBar.m in Sources */,
+				8680022C18E2304D0069EDC6 /* LawyerEntity.m in Sources */,
+				33CD960B18CDBF750011EAD5 /* CustomAppoinmentDescriptionCell.m in Sources */,
+				B23F729D18E1877000104668 /* AFHTTPClient.m in Sources */,
+				33B3EF5918C7523C006AEF58 /* NewAppointmentViewController.m in Sources */,
+				33EAF93318C6277B0016C832 /* LeftViewController.m in Sources */,
+				B23F72A218E1877000104668 /* AFPropertyListRequestOperation.m in Sources */,
+				B23F72A418E1877000104668 /* AFXMLRequestOperation.m in Sources */,
+				B23F72A118E1877000104668 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				86E2CC6D18C91EC000E11FD4 /* DataRequest.m in Sources */,
+				86E2CC5D18C905E700E11FD4 /* Utility.m in Sources */,
+				33CD95FF18CDA4140011EAD5 /* MyAppoinmentSaveCancelView.m in Sources */,
+				33F655F918D1875D00B5987C /* MyDatePicker.m in Sources */,
+				33A8BC1C18C9A22900F4F2DE /* AppointmentTypeViewController.m in Sources */,
+				B23F72A018E1877000104668 /* AFJSONRequestOperation.m in Sources */,
+				33CD95F918CDA2C50011EAD5 /* MyDropDownViewController.m in Sources */,
+				33F6561218D1ED2900B5987C /* DetailedAppointmentViewController.m in Sources */,
+				B23F729E18E1877000104668 /* AFHTTPRequestOperation.m in Sources */,
+				33B94FE218DC51A100D79C53 /* CustomCretaeNewMatter.m in Sources */,
+				86667FBC18DDD9FE0023BDAB /* SaveAppointmentResponse.m in Sources */,
+				33F6560818D1D10200B5987C /* MyReminderTableViewController.m in Sources */,
+				33B3EF4118C73EB7006AEF58 /* NSDate+TKCategory.m in Sources */,
+				33EAF90718C61F560016C832 /* MyNewAppointmentProject.xcdatamodeld in Sources */,
+				33B3EF4C18C74A9F006AEF58 /* LoginViewController.m in Sources */,
+				33A4C44818CEE4F50010FDF3 /* CustomHolidayTypeCell.m in Sources */,
+				33A8BC2918CA17C700F4F2DE /* DataEntity.m in Sources */,
+				86E2CC5418C8FFC200E11FD4 /* DataManager.m in Sources */,
+				33F6560C18D1E67300B5987C /* CustomMyAppointmentListCell.m in Sources */,
+				B23F72A518E1877000104668 /* MyAPIClient.m in Sources */,
+				86E2CC6918C9187E00E11FD4 /* LoginResponse.m in Sources */,
+				33B3EF4518C73EB7006AEF58 /* TKCalendarMonthViewController.m in Sources */,
+				33CD95F118CD9B830011EAD5 /* AddEditAppoinmentViewController.m in Sources */,
+				33CD960518CDBEA60011EAD5 /* CustomAppointmentTitleCell.m in Sources */,
+				33B3EF5D18C75584006AEF58 /* MyTabBar.m in Sources */,
+				86E9C89318D776EC005C5523 /* DataEntityValidator.m in Sources */,
+				33EAF90418C61F560016C832 /* AppDelegate.m in Sources */,
+				B23F72A618E1877000104668 /* UIImageView+AFNetworking.m in Sources */,
+				33A8BC2618CA096100F4F2DE /* Processor.m in Sources */,
+				33B3EF4318C73EB7006AEF58 /* TKCalendarMonthTableViewController.m in Sources */,
+				33B3EF4818C73EB7006AEF58 /* UIView+TKCategory.m in Sources */,
+				86E2CC5A18C905A400E11FD4 /* Reachability.m in Sources */,
+				33A4C44518CEE4E10010FDF3 /* CustomRecurringCell.m in Sources */,
+				33F655FD18D1C8AF00B5987C /* CustomVisibilityCell.m in Sources */,
+				33EAF90018C61F560016C832 /* main.m in Sources */,
+				33B3EF4718C73EB7006AEF58 /* UIImage+TKCategory.m in Sources */,
+				33FC8ECE18CA205100D409CF /* DateFormatter.m in Sources */,
+				33A8BC2218C9EAE200F4F2DE /* FilterByLawyerViewController.m in Sources */,
+				33B3EF4618C73EB7006AEF58 /* TKGlobal.m in Sources */,
+				86667FB918DDD9E40023BDAB /* SaveAppointmentRequest.m in Sources */,
+				86E2CC7018C91ED500E11FD4 /* DataResponse.m in Sources */,
+				33CD960818CDBEF80011EAD5 /* CustomAppointmentFromToCell.m in Sources */,
+				B23F729F18E1877000104668 /* AFImageRequestOperation.m in Sources */,
+				86E2CC6618C9186A00E11FD4 /* LoginRequest.m in Sources */,
+				33B3EF4418C73EB7006AEF58 /* TKCalendarMonthView.m in Sources */,
+				33EAF93818C6278C0016C832 /* RightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EAF90A18C61F560016C832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EAF91D18C61F560016C832 /* MyNewAppointmentProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33EAF91518C61F560016C832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EAF8ED18C61F560016C832 /* MyNewAppointmentProject */;
+			targetProxy = 33EAF91418C61F560016C832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33EAF8FC18C61F560016C832 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33EAF8FD18C61F560016C832 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33EAF91918C61F560016C832 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33EAF91A18C61F560016C832 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33EAF91E18C61F560016C832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: vishal dharmawat (FE7DAEQW3S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: vishal dharmawat (FE7DAEQW3S)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "F3AF1787-6098-4B6B-9C9F-9D1071D68807";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33EAF91F18C61F560016C832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: vishal dharmawat (FE7DAEQW3S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: vishal dharmawat (FE7DAEQW3S)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "F3AF1787-6098-4B6B-9C9F-9D1071D68807";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33EAF92118C61F560016C832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: vishal dharmawat (FE7DAEQW3S)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNewAppointmentProject/MyNewAppointmentProject-Prefix.pch";
+				INFOPLIST_FILE = "MyNewAppointmentProject/MyNewAppointmentProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F3AF1787-6098-4B6B-9C9F-9D1071D68807";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33EAF92218C61F560016C832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: vishal dharmawat (FE7DAEQW3S)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNewAppointmentProject/MyNewAppointmentProject-Prefix.pch";
+				INFOPLIST_FILE = "MyNewAppointmentProject/MyNewAppointmentProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F3AF1787-6098-4B6B-9C9F-9D1071D68807";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33EAF92418C61F560016C832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyNewAppointmentProject.app/MyNewAppointmentProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNewAppointmentProject/MyNewAppointmentProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyNewAppointmentProjectTests/MyNewAppointmentProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33EAF92518C61F560016C832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyNewAppointmentProject.app/MyNewAppointmentProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNewAppointmentProject/MyNewAppointmentProject-Prefix.pch";
+				INFOPLIST_FILE = "MyNewAppointmentProjectTests/MyNewAppointmentProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33EAF8E918C61F560016C832 /* Build configuration list for PBXProject "MyNewAppointmentProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EAF91E18C61F560016C832 /* Debug */,
+				33EAF91F18C61F560016C832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EAF92018C61F560016C832 /* Build configuration list for PBXNativeTarget "MyNewAppointmentProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EAF92118C61F560016C832 /* Debug */,
+				33EAF92218C61F560016C832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EAF92318C61F560016C832 /* Build configuration list for PBXNativeTarget "MyNewAppointmentProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EAF92418C61F560016C832 /* Debug */,
+				33EAF92518C61F560016C832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33EAF90518C61F560016C832 /* MyNewAppointmentProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33EAF90618C61F560016C832 /* MyNewAppointmentProject.xcdatamodel */,
+			);
+			currentVersion = 33EAF90618C61F560016C832 /* MyNewAppointmentProject.xcdatamodel */;
+			path = MyNewAppointmentProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33EAF8E618C61F560016C832 /* Project object */;
+}
